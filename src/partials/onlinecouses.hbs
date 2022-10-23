@@ -1,0 +1,17 @@
+<div class="pl-4 pb-4">
+    <div class="text-lg pr-3 text-blue-600 tracking-wide">
+        {{onlineCouse.title}}
+    </div>
+    <div class="text-sm font-mono text-right mr-5">{{onlineCouse.source}}</div>
+    <hr class="h-0.5 bg-blue-500 mr-5">
+    <div class="text-sm font-mono">{{onlineCouse.name}}</div>
+    <ol class="text-xs list-disc px-2 ">
+        {{#each onlineCouse.subtopics}}
+           <li >
+                <a href={{ this.suburl }} target="_blank">
+                    <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
+                </a>
+           </li>
+        {{/each}}
+    </ol>
+</div>

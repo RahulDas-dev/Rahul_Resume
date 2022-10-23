@@ -1,0 +1,36 @@
+<li class="block pb-3">
+    <div class="flex flex-row justify-between items-center">
+        <div>
+            <span class="font-semibold text-lg">&#187;</span>
+            <span class="text-md font-mono tracking-wide">Project - </span>
+            <span class="tracking-wide font-semibold">{{this.title}}</span>
+        </div> 
+        <div>
+            <span class="font-mono tracking-wide">Clients - </span>
+            <span class="tracking-wide font-semibold">{{this.clinet}}</span>
+        </div>
+    </div>
+    <div class="pt-2 pl-4">
+        <span class="text-md font-mono tracking-wide font-semibold">Description - </span>
+        <span class="text-sm leading-tight">{{this.functionalities}}</span>
+    </div>
+    <div class="pt-2">
+        <div class="text-md font-mono tracking-wide pl-4 font-semibold">My Contributation - </div>
+        <ul class="list-disc  pl-8 ">
+            {{#each this.roles}}
+                <li class="tracking-tight text-sm">{{ this }}</li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="flex flex-row justify-start items-start pt-2 pl-4 tracking-wide">
+        <div class="text-md font-mono tracking-wide font-semibold inline-block pr-5">Tool-</div>
+        <div class="flex flex-row justify-start items-center flex-wrap gap-1">
+            {{#each this.tools}}
+                <div class="inline-flex">
+                    <span class="font-mono tracking-wide ">{{this}}</span>
+                    <span class="pr-0.5">,</span>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</li>

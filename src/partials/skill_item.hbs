@@ -1,0 +1,14 @@
+<li class="block text-xs pb-2">
+    <div class="flex flex-row justify-between">
+        <div>{{this.name}}</div>
+        <div class="pr-5 font-mono">{{this.duration}}</div>
+    </div> 
+    <hr class=" h-0.5 bg-blue-500 mr-5">
+    <div class="flex flex-row justify-start items-center px-2 flex-wrap">
+        {{#each this.pkges}}
+            <div class="pr-1 text-sx tracking-wide font-mono">
+                <span>{{this}},</span>
+            </div>
+        {{/each}}
+    </div>
+</li>

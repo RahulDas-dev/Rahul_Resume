@@ -1,0 +1,205 @@
+{   
+    "pagetitle":"Rahul_Das_Resume",
+    "personal": {
+        "name" : "Rahul Das",
+        "dob" : "13-03-1988 ",
+        "address":"Kolkata, India, 711109",
+        "github":"https://github.com/RahulDas-dev",
+        "github-short":"github.com/RahulDas-dev",
+        "twitter":"https://twitter.com/Rahul13031988",
+        "linkedin":"https://www.linkedin.com/in/contact-rahul",
+        "linkedin-short": "likedin.com/contact-rahul",
+        "mobile": "+91 8097397804",
+        "mail":"r.das699@gmail.com",
+        "experience":"10+ years of experience"
+    },
+    "title": "Hi, I am Rahul",
+    "sub_title" : "Data Science & Machine Learning Professionals",
+    "content": "I have 10+ years of industry experience, of which 5+ years are in data-science. During my time at TCS, I was able to expand my expertise in Machine Learning, Deep Learning, Image Processing, Linear Algebra, and Statistics. Apart from Python I often used Javascript, Typescript to build visualisations and dashboard. With my abilities, I believe there will be countless opportunities to use them with industry best practises and learn further.",
+    "career":{
+        "title": "Relevant Experience",
+        "items":[
+          {
+            "desig":"Assistant Consultant",
+            "role": "Data Scientist & ML Engineer",
+            "date":"Current Date",
+            "projects":[
+              {
+                "title":"Pricing Optimization",
+                "clinet":"Barnes & Noble, Walgreens",
+                "functionalities":"Setting and maintaining prices for high-class merchandise in retail stores by hand is a significant burden. Adjusting price of the items while taking competitiveness and seasonality into consideration adds extra dimensions to the problem. The Retailers wants a all-encompassing solution for daily price management, category reset, trade correction and seasonal pricing",
+                "roles":["Modeling the demand and price relationship taking into account self Elasticity, Cross and Competitor Elasticity.",
+                        "Model vectorization for parallel processing across GPU.",
+                      "The demand and price relationship is exceedingly complex and difficult to optimise. However, I used the gradient descent Algo to optimize the demand. ",
+                      "Computation of Elasticity and Cross Elasticity using Linear Regression + regularization.",
+                      "Detection of Seasonality of items from demand patterns using LSTM Neural Networks.",
+                      "Projecting future demand for any arbitary price change from Demand gradient."],
+                "tools":["python3","numpy", "scikit-learn", "pyspark", "pandas", "matplot-lib","sql", "Tendorflow","keras"]      
+              }
+            ]
+          },
+          {
+            "desig":"IT Analyst",
+            "role": "Python Developper + Data Scientist",
+            "date":"Jun 2021",
+            "projects":[
+              {
+                "title":"Buddy Matching ",
+              "clinet":"Walgreens",
+              "functionalities":"Setting and maintaining prices for high-class merchandise in retail stores by hand is a significant burden. Adjusting price of the items while taking competitiveness and seasonality into consideration adds extra dimensions to the problem. The Retailers wants a all-encompassing solution for daily price management, category reset, trade correction and seasonal pricing",
+              "roles":[],
+              "tools":["python3","numpy", "scikit-learn", "pyspark", "pandas", "matplot-lib","sql", "Tendorflow","keras"]
+              }
+            ]
+          },
+          {
+            "desig":"System Engineer",
+            "role": "Backend Engineer",
+            "date":"Aug 2017",
+            "projects":[
+            ]
+          },{
+            "desig":"System Engineer Trainee",
+            "role": "Backend Engineer",
+            "date":"Jul 2012",
+            "projects":[
+            ]
+          }
+        ]
+    },
+    "certification":{
+      "title":"Certification & Trainings",
+      "sub_title":"Learning never exhausts the mind.",
+      "items":[
+        {
+          "title":"Deep Learning Specilization",
+          "source":"Coursera",
+      
+          "logo": "https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/specialization/G9BU6M6NP8KQ",
+          "subtopics":[
+            {
+              "title":"Neural Networks and Deep Learning",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/KJW4VJJ8GKFC"
+            },
+            {
+              "title":"Structuring ML Projects",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/HSAYYFRUXLM9"
+            },
+            {
+              "title":"Improving Deep Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/7LJTMTL3SM2K"
+            },{
+              "title":"Convolutional Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/4DXE2DR3B6ZN"
+            },
+            {
+              "title":"Sequence Models",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/PJGX3DW4N5G9"
+            }
+          ]
+        },{
+          "title":"3D Reconstruction from Image ",
+          "details":"This specialization presents the first comprehensive treatment of the foundations of computer vision. This course focuses on the recovery of the 3D structure of a scene from its 2D images.",
+          "source":"Coursera",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/verify/N57QGYMJKW3K"
+        },{
+          "title":"Google Cloud architect ",
+          "source":"Coursera",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5",
+          "subtopics":[
+            {
+              "title":"Google Cloud Fundamentals",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/F6PVH5BJ5WRW"
+            },
+            {
+              "title":"Google Cloud Infrastructure",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5"
+            },
+            {
+              "title":"Google Core Services",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/69JF5URD72BV"
+            },
+            {
+              "title":"Scaling and Automation",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/UWKECY44XMQU"
+            },
+            {
+              "title":"Google Kubernetes Engine",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/SWEV92PPQ2RU"
+            }
+          ]
+        },{
+          "title":"Modern Javascript Bootcamp",
+          "source":"udemy",
+          "details": "The comprehensive and in-depth JavaScript course ,in great detail. It's a huge course because it's packed with important knowledge and helpful content. From the core basics, over advanced concepts and JavaScript specialties",
+          "logo": "https://www.vectorlogo.zone/logos/udemy/udemy-ar21.svg",
+          "url":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
+        }]
+    },
+    "education":{
+        "title": "Academics",
+        "sub_title" : "Data Science, ML Engineer",
+        "items":[
+            {
+                "degree": "M.tech",
+                "subject": "Communication Engineering",
+                "University": "NIT Durgapur",
+                "period": "2010-2012",
+                "marks": "CGPA 9.1",
+                "url": "https://nitdgp.ac.in/"
+            },
+            {
+                "degree": "B.tech",
+                "subject": "Electronics & Comm Engineering",
+                "University": "West Bengal University of technology",
+                "period": "2005-2009",
+                "marks": "CGPA 8.5",
+                "url" : "https://makautwb.ac.in/"
+            }
+        ]
+    },
+    "skills":{
+      "items":[
+        {
+          "name": "Python",
+          "duration": "6 Years",
+          "pkges":["core-library","type-hinting","unit-testing","asyncio"]
+        },
+        {
+          "name": "Data Science ",
+          "pkges":["numpy", "scikit-learn","pandas", "scipy", "matplotlib", "seaborn"],
+          "duration": "5 Years"
+        },
+        {
+          "name": "ML/DL Framework",
+          "pkges":["tensorflow","Keras", "pytorch"],
+          "duration": "4 Years"
+        },
+        {
+          "name": "SQL Database",
+          "pkges":["postgress","Azure Databrics", "Python/sqlite3"],
+          "duration": "4 Years"
+        },{
+          "name": "DS Fundamentals",
+          "pkges":["Statistics", "Linear ALgebra"],
+          "duration": "4 Years"
+        }
+      ]
+    },
+    "otherskills":{
+      "title": "My Leaning Stack",
+      "desc":"Given the present state of technology, I am developing certain skills, but I am not officially using them in my current company.",
+      "items":["Rust","JavaScpript","TypeScript","Webpack Bundling"]
+    },
+    "footer":{
+      "repolink" : "https://github.com/RahulDas-dev/portfolio.git",
+      "line1": "Designed & Built by Rahul Das  ",
+      "line2": "A framework-free, responsive design bundled with vite."
+    }
+}
+
+
+

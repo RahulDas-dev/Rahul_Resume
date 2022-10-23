@@ -1,0 +1,28 @@
+<div class="text-sm pb-4">
+    <div class="w-full ">
+        <img src="profile_pic.png" class="h-28 rounded rounded-full mx-auto" alt="profile_pc">
+    </div>
+    <div class="flex flex-col justify-start gap-0.5 items-start pt-4 pl-4">
+        <span>
+            <i class="uil uil-envelope-alt text-gray-400 pr-2" ></i>
+            <span class="text-xs font-normal leading-none font-mono ">{{personal.mail}}</span>
+        </span>
+        <span>
+            <i class="uil uil-mobile-android-alt text-gray-400 pr-2" ></i>
+            <span class="font-normal leading-none text-xs font-mono ">{{personal.mobile}}</span>
+        </span>
+        
+        <a href={{ personal.linkedin }} target="_blank">
+            <i class="uil uil-linkedin-alt text-gray-400 pr-2"></i>
+            <span class="text-xs break-normal font-normal leading-none font-mono tracking-tight">{{personal.linkedin-short}}</span>
+        </a>
+        <a href={{ personal.github }} target="_blank">
+            <i class="uil uil-github text-gray-400 pr-2" ></i>
+            <span class="text-xs font-normal leading-none font-mono ">{{personal.github-short}}</span>
+        </a>
+        <span>
+            <i class="uil uil-map-marker text-gray-400 pr-2" ></i>
+            <span class="text-xs font-normal leading-none font-mono ">{{personal.address}}</span>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{pagetitle}}</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script type="module" src="src/main.js" ></script>
+  </head>
+  <body class="m-0 p-0 antialiased text-gray-700 bg-slate-100" id="resume" >
+      <div class="page-1 flex flex-row antialiased">
+        <div class="left-area block flex-auto w-3/4 h-full py-10 pl-8">
+          {{>introduction}}
+          {{>career}}
+        </div>
+        <div class="right-area block flex-auto w-1/4 h-full bg-blue-100 py-5 ">
+          {{>contact}}
+          {{>skills}}
+          {{>otherSkills}}
+          {{>education}}
+        </div>
+      </div>
+  </body>
+</html>

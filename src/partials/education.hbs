@@ -1,0 +1,10 @@
+<div class="pl-4 pb-4">
+    <div class="text-lg pr-3 text-blue-600 tracking-wide">
+        {{education.title}}
+    </div>
+    <ol class="text-xs">
+        {{#each education.items}}
+            {{> edu_item }}
+        {{/each}}
+    </ol>
+</div>

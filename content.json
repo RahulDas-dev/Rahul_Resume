@@ -16,7 +16,7 @@
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science & Machine Learning Professionals",
-    "content": "I have 10+ years of industry experience and 5+ years in Data Science. During my time at TCS, I was able to expand my expertise in Machine Learning, Deep Learning, Image processing, Linear Algebra, and Statistics. Besides Python, I've used Javascript and Typescript to create dashboards and visualizations. With my skills, I believe there are countless opportunities to use them in industry best practices and continue to learn.",
+    "content": "I have 10+ years of industry experience and 5+ years in Data Science, specifically in Retail domain. During my time at TCS, I was able to expand my expertise in Machine Learning, Deep Learning, Image processing, Linear Algebra, and Statistics. Besides Python, I've used Javascript and Typescript to create dashboards and visualizations. With my skills, I believe there are countless opportunities to use them in industry best practices and continue to learn.",
     "career":{
         "title": "Relevant Experience",
         "items":[
@@ -31,24 +31,23 @@
                 "functionalities":"Manually setting and maintaining prices for high-class merchandise in retail stores is a significant burden. Adjusting items prices for competitiveness and seasonality magnifies the problem. Retailers want a all-in-one solution for daily price management, category reset, trade correction and seasonal pricing.",
                 "roles":["Modeling the demand and price relationship taking into account self Elasticity, Cross and Competitor Elasticity.",
                         "Model vectorization for parallel processing across GPU.",
-                      "The demand and price relationship is exceedingly complex and difficult to optimise. However, I used the gradient descent Algo to optimize the demand. ",
+                      "The demand and price relationship is exceedingly complex and difficult to optimise. However, I used the Gradient Descent Algorithm to optimize the demand. ",
                       "Computation of Elasticity and Cross Elasticity using Linear Regression + regularization.",
                       "Detection of Seasonality of items from demand patterns using LSTM Neural Networks.",
-                      "Projecting future demand for any arbitary price change from Demand gradient."],
-                "tools":["python3","numpy", "scikit-learn", "pyspark", "pandas", "matplot-lib","sql", "Tendorflow","keras"]      
+                      "Projecting future demand for any arbitary price change using demand Gradient."],
+                "tools":["python3","numpy", "pyspark", "pandas", "matplot-lib","sql", "Tendorflow"]      
               },{
-                "title":"Item/Buddy Matching ",
+                "title":"Item / Buddy Matching ",
                 "client":"Walgreens",
-                "functionalities":"Manually Organizing big class of merchandise for Retailers is a headache. The Retailers want to identify all comparable item/buddy under same clustering using image or textual information.",
-                "roles":["Clustering Using textual information --",
-                        "Given product titles, brand, Manufracturer info quantifying their diploma of similarity using, Feature selection followed by clustering",
+                "functionalities":"Manually organizing big class of merchandise for Retailers is a headache. The Retailers want to identify all comparable item/buddy under same clustering using image or textual information.",
+                "roles":["Clustering using textual information --",
+                        "Given product titles, brand, manufracturer info and other quantifying their diploma of similarity using, Feature selection followed by clustering",
                         "1.  Feature Selection - I use PCA and SVD to undertake Feature Engineering that demonstrates the highest level of reliability.",
-                        "2.  Feature Selection - Adding and removing textual features one at a time while monitoring the decision tree's accuracy metric.",
+                        "2.  Feature Selection - Adding and removing one feature at a time while monitoring the decision tree's accuracy metric. Then selecting features with highest accuracy",
                         "3.  Finally clustering Feature vectors is done using Hierarchical clustering algo.",
                         "Similarity measurement using image -- ",
-                        "1.  We trained Convolutional Auto-encoder using Similar Images as network input and output.",
-                        "2.  Encoder Layer output has been extracted from fully trained Model",
-                        "3.  The output of the Encoder Layer has been extracted from a trained Model. Then Kmeans Clustering was performed."
+                        "1.  We trained Convolutional Auto-encoder using similar image pairs as network traing data.",
+                        "2.  The output of the Encoder Layer has been extracted from a trained Model. Finally Kmeans Clustering has been done."
                       ],
                 "tools":["python3", "Tendorflow","keras"]
               }
@@ -60,9 +59,9 @@
             "date":"Jun 2021",
             "projects":[
               {
-                "title":"Dashboard",
-                "functionalities":"Data-science projects require interactive ways to share visuals of various graphs, charts, and other info. Web-based dashboards are an effective solution.",
-                "tools":["D3.js", "Typescript","React"]
+                "title":"Dashboard Buidling / Visualization Tool",
+                "functionalities":"Data-science projects require interactive ways to share visuals of various graphs, charts, map and other visual information. Web-based dashboards are an effective solution. However the task became challenging sometimes,  when creating visualization for N-Dimensional data ,Or Visualization for intermediate layers of Deep Neural Network.",
+                "tools":["D3.js", "Typescript","React", "Python3","flask","matplot-lib"]
               }
             ]
           }
@@ -73,10 +72,10 @@
         {
           "projects":[
             {
-              "title":"Product identification or detection",
+              "title":"Product Identification / Object Detection",
               "client":"Walgreens",
               "functionalities":"Detect empty shelves in retail stores and refill empty shelves with the exact items specified in the planogram is a retailer's daily business. However, the task complexity increases exponentially with the number of merchandise items. Retailer wants a mobile app-based solution to support store owners. App will Organize missing shelves and replenish new value according to planogram compliance. As a deep learning engineer, my job was to detect empty positions of the shelvs from images captured by mobile apps, And Recognize the Product of filledup shelves.",
-              "roles":["Image Dataset collection by web scraping with Python script.",
+              "roles":["Image dataset collection by web scraping with Python script.",
                       "Image dataset preprocessing, meta tag removal, resizing, image annotation.",
                     "The main task of object recognition was taken over by YOLOV3. However, I did experimentation FRCNN.",
                     "Training of state-of-the-art Yolov3 models [transfer learning].",
@@ -85,12 +84,12 @@
               "tools":["python3","Tendorflow","keras", "Tensorboard","Tensorflow-serving","scikit-learn","matplot-lib" ] 
             },
             {
-              "title":"Associative rule mining",
+              "title":"Associative Rule Mining",
               "client":"Walgreens",
-              "functionalities":"Retailers want to find associations among large sets of particulars which are constantly brought together. In a sense this seems to Finding Similarity between the particulars, but its not. Like Bread and Butter are frequent brought together. This association helps retailer to Organize the planogram consequently, so the associated particulars can placed near by shelves. As a data scientist we had the job to find out that association.",
-              "roles":["Data Preprocessing Collecting daily invoice data Crating the mapp of items that frequently brought togather",
-                      "I use Apriori Algorithm which is unsupervised Learning Technique. ",
-                      "That main difficulty with Apriori Algorithm is it has time complexity of O(2^n). So we itroduced a medium to store the Conditional probability in a pikkle file For original data set. We Reuse the Conditionally Probabilities in case of incremental data. This Results lower time consumption in case of incremental data."
+              "functionalities":"Retailers want to find associations among large sets of particulars which are constantly brought together. In a sense this seems finding similarity between the particulars, but its not. Ex- Bread and Butter are frequently brought together. This association helps retailer to organize the Planogram accordingly, so the associated particulars can placed near by shelves. As a data scientist we had the job to find out that association.",
+              "roles":["Data preprocessing - collecting daily invoice data from OLAP and mapping the items that are frequently brought together using Numpy Matric / Pivot Table",
+                      "I use Apriori Algorithm which is a Unsupervised Learning technique. ",
+                      "That main difficulty with Apriori algorithm is it has time complexity of O(2^n). So we itroduced a technique to store the conditional probability generated by algorithem from original data set. We reuse the conditionally probabilities in case of incremental data. This results lower time consumption in case of incremental data."
                     ],
               "tools":["python3","scikit-learn","matplot-lib","numpy" ] 
             }
@@ -102,13 +101,13 @@
           "date":"Aug 2017",
           "projects":[
             {
-              "title":"Core Banking Solution(CBS)",
+              "title":"Core Banking Solution [ CBS ]",
               "client":"State Bank of India",
-              "functionalities":"Execution of Core banking system across all branches and speed up all finantial transactions, Aautomation of EOD interests calculation and ofline reporting.",
-              "roles":["Enhancements for interest calculation for loan product",
-              "Change request implentation for parameter tuning, customer level limit tree creation, NPA, Financial transaction", 
-              "Change request implentation for Currency chest, Loan Account Opening process",
-              "Offline and ad hoc report generation"
+              "functionalities":"Execution of core banking system across all branches and speed up all finantial transactions, automation of EOD interests calculation and ofline reporting.",
+              "roles":["Enhancements for interest calculation for loan product.",
+              "Change request implentation for parameter change, customer level limit tree creation, NPA, Financial transaction.", 
+              "Change request implentation for currency chest, loan account opening process.",
+              "Offline and ad-hoc report generation."
               ],
               "tools":["Sql", "COBOL","Unix"]
             }
@@ -166,7 +165,7 @@
           "suburl":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
         }],
         "mitems":{
-          "title":"Google Cloud architect ",
+          "title":"Google Cloud",
           "source":"Coursera",
           "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
           "url":"https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5",
@@ -245,14 +244,14 @@
     "otherskills":{
       "title": "My Leaning Stack",
       "desc":"Given the present state of technology, I am developing certain skills, but I am not officially using them in my current company.",
-      "items":["Rust","JavaScpript","TypeScript","Webpack Bundling"]
+      "items":["Rust","JavaScpript","TypeScript","Webpack","React"]
     },
     "achivements": {
       "title": "Achievement",
-      "items":["Oct 2016 -- Technical Excellence Award for successful automation of Agricultural Subvention Reporting"]
+      "items":["Oct 2016 - Technical Excellence Award for successful automation of Agricultural Subvention Reporting"]
     },
     "footer":{
-      "repolink" : "https://github.com/RahulDas-dev/portfolio.git",
+      "repolink" : "https://github.com/RahulDas-dev/rahul_resume",
       "line1": "Designed & Built by Rahul Das  ",
       "line2": "A framework-free, responsive design bundled with vite."
     }

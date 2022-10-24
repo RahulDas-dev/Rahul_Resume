@@ -1,0 +1,24 @@
+<div class="pl-4 pb-4">
+    <div class="text-lg pr-3 text-blue-600 tracking-wide">
+        {{certification.title}}
+    </div>
+    <hr class="h-0.5 bg-blue-500 mr-5">
+    {{#each certification.items}}
+    <div class="text-xs ">
+        <a href={{this.suburl}} target="_blank">
+            <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
+        </a>    
+    </div>
+    {{/each}}
+    <div class="text-sm font-mono">{{certification.mitems.title}}</div>
+    <ol class="text-xs list-disc px-2 ">
+    {{#each certification.mitems.items}}
+        <li>
+            <a href={{this.suburl}} target="_blank">
+                <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
+            </a>
+        </li>
+    {{/each}}
+    </ol>
+    
+</div>

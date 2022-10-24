@@ -11,7 +11,8 @@
         "linkedin-short": "likedin.com/contact-rahul",
         "mobile": "+91 8097397804",
         "mail":"r.das699@gmail.com",
-        "experience":"10+ years of experience"
+        "experience":"10+ years of experience",
+        "gitrepo":"https://github.com/RahulDas-dev/rahul_resume"
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science & Machine Learning Professionals",
@@ -67,6 +68,58 @@
           }
         ]
     },
+    "career2":{
+      "items":[
+        {
+          "projects":[
+            {
+              "title":"Product identification or detection",
+              "client":"Walgreens",
+              "functionalities":"Detect empty shelves in retail stores and refill empty shelves with the exact items specified in the planogram is a retailer's daily business. However, the task complexity increases exponentially with the number of merchandise items. Retailer wants a mobile app-based solution to support store owners. App will Organize missing shelves and replenish new value according to planogram compliance. As a deep learning engineer, my job was to detect empty positions of the shelvs from images captured by mobile apps, And Recognize the Product of filledup shelves.",
+              "roles":["Image Dataset collection by web scraping with Python script.",
+                      "Image dataset preprocessing, meta tag removal, resizing, image annotation.",
+                    "The main task of object recognition was taken over by YOLOV3. However, I did experimentation FRCNN.",
+                    "Training of state-of-the-art Yolov3 models [transfer learning].",
+                    "Monitoring the training process with Tensorboard and hyperparameter tuning.",
+                    "Deployed a trained model using Tensorflow-serving."],
+              "tools":["python3","Tendorflow","keras", "Tensorboard","Tensorflow-serving","scikit-learn","matplot-lib" ] 
+            },
+            {
+              "title":"Associative rule mining",
+              "client":"Walgreens",
+              "functionalities":"Retailers want to find associations among large sets of particulars which are constantly brought together. In a sense this seems to Finding Similarity between the particulars, but its not. Like Bread and Butter are frequent brought together. This association helps retailer to Organize the planogram consequently, so the associated particulars can placed near by shelves. As a data scientist we had the job to find out that association.",
+              "roles":["Data Preprocessing Collecting daily invoice data Crating the mapp of items that frequently brought togather",
+                      "I use Apriori Algorithm which is unsupervised Learning Technique. ",
+                      "That main difficulty with Apriori Algorithm is it has time complexity of O(2^n). So we itroduced a medium to store the Conditional probability in a pikkle file For original data set. We Reuse the Conditionally Probabilities in case of incremental data. This Results lower time consumption in case of incremental data."
+                    ],
+              "tools":["python3","scikit-learn","matplot-lib","numpy" ] 
+            }
+          ]
+        },
+        {
+          "desig":"System Engineer",
+          "role": "Back end Developer",
+          "date":"Aug 2017",
+          "projects":[
+            {
+              "title":"Core Banking Solution(CBS)",
+              "client":"State Bank of India",
+              "functionalities":"Execution of Core banking system across all branches and speed up all finantial transactions, Aautomation of EOD interests calculation and ofline reporting.",
+              "roles":["Enhancements for interest calculation for loan product",
+              "Change request implentation for parameter tuning, customer level limit tree creation, NPA, Financial transaction", 
+              "Change request implentation for Currency chest, Loan Account Opening process",
+              "Offline and ad hoc report generation"
+              ],
+              "tools":["Sql", "COBOL","Unix"]
+            }
+          ]
+        },{
+          "date":"Jul 2012",
+          "projects":[
+          ]
+        }
+      ]
+    },
     "onlineCouse":{
       "title":"Online Course",
       "name":"Deep Learning Specilization",
@@ -96,76 +149,48 @@
       ]
     },
     "certification":{
-      "title":"Certification & Trainings",
+      "title":"Certification",
       "sub_title":"Learning never exhausts the mind.",
       "items":[
         {
-          "title":"Deep Learning Specilization",
-          "source":"Coursera",
-      
-          "logo": "https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
-          "url":"https://www.coursera.org/account/accomplishments/specialization/G9BU6M6NP8KQ",
-          "subtopics":[
-            {
-              "title":"Neural Networks and Deep Learning",
-              "suburl":"https://www.coursera.org/account/accomplishments/verify/KJW4VJJ8GKFC"
-            },
-            {
-              "title":"Structuring ML Projects",
-              "suburl":"https://www.coursera.org/account/accomplishments/verify/HSAYYFRUXLM9"
-            },
-            {
-              "title":"Improving Deep Neural Networks",
-              "suburl":"https://www.coursera.org/account/accomplishments/verify/7LJTMTL3SM2K"
-            },{
-              "title":"Convolutional Neural Networks",
-              "suburl":"https://www.coursera.org/account/accomplishments/verify/4DXE2DR3B6ZN"
-            },
-            {
-              "title":"Sequence Models",
-              "suburl":"https://www.coursera.org/account/accomplishments/verify/PJGX3DW4N5G9"
-            }
-          ]
-        },{
           "title":"3D Reconstruction from Image ",
           "details":"This specialization presents the first comprehensive treatment of the foundations of computer vision. This course focuses on the recovery of the 3D structure of a scene from its 2D images.",
           "source":"Coursera",
           "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
-          "url":"https://www.coursera.org/account/accomplishments/verify/N57QGYMJKW3K"
-        },{
-          "title":"Google Cloud architect ",
-          "source":"Coursera",
-          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
-          "url":"https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5",
-          "subtopics":[
-            {
-              "title":"Google Cloud Fundamentals",
-              "subrl": "https://www.coursera.org/account/accomplishments/certificate/F6PVH5BJ5WRW"
-            },
-            {
-              "title":"Google Cloud Infrastructure",
-              "subrl": "https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5"
-            },
-            {
-              "title":"Google Core Services",
-              "subrl": "https://www.coursera.org/account/accomplishments/certificate/69JF5URD72BV"
-            },
-            {
-              "title":"Scaling and Automation",
-              "subrl": "https://www.coursera.org/account/accomplishments/certificate/UWKECY44XMQU"
-            },
-            {
-              "title":"Google Kubernetes Engine",
-              "subrl": "https://www.coursera.org/account/accomplishments/certificate/SWEV92PPQ2RU"
-            }
-          ]
+          "suburl":"https://www.coursera.org/account/accomplishments/verify/N57QGYMJKW3K"
         },{
           "title":"Modern Javascript Bootcamp",
           "source":"udemy",
           "details": "The comprehensive and in-depth JavaScript course ,in great detail. It's a huge course because it's packed with important knowledge and helpful content. From the core basics, over advanced concepts and JavaScript specialties",
           "logo": "https://www.vectorlogo.zone/logos/udemy/udemy-ar21.svg",
-          "url":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
-        }]
+          "suburl":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
+        }],
+        "mitems":{
+          "title":"Google Cloud architect ",
+          "source":"Coursera",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5",
+          "items":[
+            {
+              "title":"Google Cloud Fundamentals",
+              "suburl": "https://www.coursera.org/account/accomplishments/certificate/F6PVH5BJ5WRW"
+            },
+            {
+              "title":"Google Cloud Infrastructure",
+              "suburl": "https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5"
+            },
+            {
+              "title":"Google Core Services",
+              "suburl": "https://www.coursera.org/account/accomplishments/certificate/69JF5URD72BV"
+            },{
+              "title":"Scaling and Automation",
+              "suburl": "https://www.coursera.org/account/accomplishments/certificate/UWKECY44XMQU"
+            },{
+              "title":"Google Kubernetes Engine",
+              "suburl": "https://www.coursera.org/account/accomplishments/certificate/SWEV92PPQ2RU"
+            }
+          ]
+        }
     },
     "education":{
         "title": "Academics",
@@ -221,6 +246,10 @@
       "title": "My Leaning Stack",
       "desc":"Given the present state of technology, I am developing certain skills, but I am not officially using them in my current company.",
       "items":["Rust","JavaScpript","TypeScript","Webpack Bundling"]
+    },
+    "achivements": {
+      "title": "Achievement",
+      "items":["Oct 2016 -- Technical Excellence Award for successful automation of Agricultural Subvention Reporting"]
     },
     "footer":{
       "repolink" : "https://github.com/RahulDas-dev/portfolio.git",

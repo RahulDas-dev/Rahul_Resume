@@ -42,14 +42,14 @@
                 "functionalities":"Manually organizing big class of merchandise for Retailers is a headache. The Retailers want to identify all comparable item/buddy under same clustering using image or textual information.",
                 "roles":["Clustering using textual information --",
                         "Given product titles, brand, manufracturer info and other quantifying their diploma of similarity using, Feature selection followed by clustering",
-                        "1.  Feature Selection - I use PCA and SVD to undertake Feature Engineering that demonstrates the highest level of reliability.",
-                        "2.  Feature Selection - Adding and removing one feature at a time while monitoring the decision tree's accuracy metric. Then selecting features with highest accuracy",
-                        "3.  Finally clustering Feature vectors is done using Hierarchical clustering algo.",
+                        "Feature Selection - I use PCA and SVD to undertake Feature Engineering that demonstrates the highest level of reliability.",
+                        "Feature Selection - Adding and removing one feature at a time while monitoring the decision tree's accuracy metric. Then selecting features with highest accuracy",
+                        "Finally clustering Feature vectors is done using Hierarchical clustering algo.",
                         "Similarity measurement using image -- ",
-                        "1.  We trained Convolutional Auto-encoder using similar image pairs as network traing data.",
-                        "2.  The output of the Encoder Layer has been extracted from a trained Model. Finally Kmeans Clustering has been done."
+                        "We trained Convolutional Auto-encoder using similar image pairs as network traing data.",
+                        "The output of the Encoder Layer has been extracted from a trained Model. Finally Kmeans Clustering has been done."
                       ],
-                "tools":["python3", "Tendorflow","keras"]
+                "tools":["python3", "Tendorflow","keras","matplot-lib","numpy"]
               }
             ]
           },
@@ -59,9 +59,9 @@
             "date":"Jun 2021",
             "projects":[
               {
-                "title":"Dashboard Buidling / Visualization Tool",
+                "title":"Dashboard Building / Visualization Tool",
                 "functionalities":"Data-science projects require interactive ways to share visuals of various graphs, charts, map and other visual information. Web-based dashboards are an effective solution. However the task became challenging sometimes,  when creating visualization for N-Dimensional data ,Or Visualization for intermediate layers of Deep Neural Network.",
-                "tools":["D3.js", "Typescript","React", "Python3","flask","matplot-lib"]
+                "tools":["D3.js", "Javascript","Python3","flask","matplot-lib"]
               }
             ]
           }
@@ -222,7 +222,7 @@
         },
         {
           "name": "Data Science ",
-          "pkges":["numpy", "scikit-learn","pandas", "scipy", "matplotlib", "seaborn"],
+          "pkges":["numpy", "scikit-learn","pandas","pyspark", "scipy", "matplotlib", "seaborn"],
           "duration": "5 Years"
         },
         {
@@ -232,11 +232,11 @@
         },
         {
           "name": "SQL Database",
-          "pkges":["postgress","Azure Databrics", "Python/sqlite3"],
+          "pkges":["postgress","Azure Databrics", "Python/sqlite3","pyspark"],
           "duration": "4 Years"
         },{
           "name": "DS Fundamentals",
-          "pkges":["Statistics", "Linear ALgebra"],
+          "pkges":["Statistics", "Linear Algebra"],
           "duration": "4 Years"
         }
       ]

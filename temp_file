@@ -1,5 +1,0 @@
-Associative rule mining:
-
-Retailers want to find associations among large sets of particulars which are constantly brought together. In a sense this seems to Finding Similarity between the particulars, but its not. Like Bread and Butter are frequent brought together. This association helps retailer to Organize the planogram consequently, so the associated particulars can placed near by shelves. As a data scientist we had the job to find out that association. 
-
-That main difficulty with Apriori Algorithm is it has time complexity of O( 2n). So we itroduced a medium to store the Conditional probability in a pikkle file For original data set. We Reuse the Conditionally Probabilities in case of incremental data. This Results lower time consumption in case of incremental data.

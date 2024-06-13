@@ -16,54 +16,27 @@
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science & Machine Learning Professionals",
-    "content": "I have 11+ years of industry experience including 7+ years in ML/Data Science, specially in the Banking/Retail domain. During my tenure, I was able to gain expertise in Machine Learning, Deep Learning, Image processing, Linear Algebra, and Statistics. Besides Python, I've used Javascript and Typescript to create dashboards and visualizations. Currently I am looking for opportunities to apply my expertise and learn further.",
+    "content": "I have 11+ years of industry experience including 6+ years in ML/Data Science, specially in the Banking/Retail domain. During my tenure, I was able to gain expertise in Machine Learning, Deep Learning, Image processing, Linear Algebra, and Statistics. Besides Python, I've used Javascript and Typescript to create dashboards and visualizations. Currently I am looking for opportunities to apply my expertise and learn further.",
     "career":{
         "title": "Relevant Experience",
         "items":[
           {
             "desig":"Data Scientist",
-            "role": "ML Engineer",
+            "role": "Data Scientist & ML Engineer",
             "date":"Current Date",
             "org": "EvdeVerve, Finacle",
             "projects":[
               {
-                "title": "AutoML Platform",
-                "client": "Finacle",
-                "functionalities": "Spearheaded the development of an AutoML platform featuring explainable models within the existing banking solution, specifically tailored to meet the needs of banking customers, thereby enhancing the efficiency and transparency of the system.",
-                "roles": [
-                  "Ensuring consistent data flow for various models.",
-                  "Ensuring the global and local explainability of the models.",
-                  "Ensuring seamless model integration during inference.",
-                  "Ensuring support for ONNX.",
-                  "Ensuring seamless interoperability and deployment of models across various environments.",
-                  "Ensuring project lifecycle monitoring using Data Drift + Concept Drift."
-                ],
-                "tools": [
-                  "dask-ml",
-                  "Optuna",
-                  "scikit-learn",
-                  "SHAP",
-                  "LIME",
-                  "sktime",
-                  "statsmodels",
-                  "ML-Forecast"
-                ]
-              }              
-            ]
-          },
-          {
-            "desig":"Data Scientist",
-            "role": "ML Engineer",
-            "date":"June 2023",
-            "org": "EvdeVerve, Finacle",
-            "projects":[
-              {
-                "title": "Synthetic Tabular Data Generator",
-                "client": "Finacle",
-                "functionalities": "Successfully developed a Synthetic Tabular Data Generator tailored for the banking domain. This project aimed to create statistically equivalent synthetic data while concealing sensitive financial details.",
-                "roles": [],
-                "tools": ["scikit-learn"]
-              }              
+                "title":"Building Automl Platform",
+                "client":"Finacle",
+                "functionalities":"Manually setting and maintaining prices for high-class merchandise in retail stores is a significant burden. Adjusting items prices for competitiveness and seasonality magnifies the problem. Retailers want a all-in-one solution for daily price management, category reset, trade correction and seasonal pricing.",
+                "roles":["Modeling the demand and price relationship taking into account self Elasticity, Cross and Competitor Elasticity.",
+                        "Model vectorization for parallel processing across GPU.",
+                      "The demand and price relationship is exceedingly complex and difficult to optimise. However, I used the Gradient Descent Algorithm to optimize the demand. ",
+                      "Computation of Elasticity and Cross Elasticity using Linear Regression + regularization.",
+                      "Projecting future demand for any arbitary price change using demand Gradient."],
+                "tools":["python3","Fast-Api", "Optuna", "scikit-learn","Shap", "Lime", "sktime", "stats-model", "ML-Forecast"]      
+              }
             ]
           },
           {
@@ -73,6 +46,16 @@
             "org": "TCS",
             "projects":[
               {
+                "title":"Pricing Optimization",
+                "client":"Barnes & Noble, Walgreens",
+                "functionalities":"Manually setting and maintaining prices for high-class merchandise in retail stores is a significant burden. Adjusting items prices for competitiveness and seasonality magnifies the problem. Retailers want a all-in-one solution for daily price management, category reset, trade correction and seasonal pricing.",
+                "roles":["Modeling the demand and price relationship taking into account self Elasticity, Cross and Competitor Elasticity.",
+                        "Model vectorization for parallel processing across GPU.",
+                      "The demand and price relationship is exceedingly complex and difficult to optimise. However, I used the Gradient Descent Algorithm to optimize the demand. ",
+                      "Computation of Elasticity and Cross Elasticity using Linear Regression + regularization.",
+                      "Projecting future demand for any arbitary price change using demand Gradient."],
+                "tools":["python3","numpy", "pyspark", "pandas", "matplot-lib","sql", "Tensorflow"]      
+              },{
                 "title":"Item / Buddy Matching ",
                 "client":"Walgreens",
                 "functionalities":"Manually organizing big class of merchandise for Retailers is a headache. The Retailers want to identify all comparable item/buddy under same clustering using image or textual information.",
@@ -81,9 +64,24 @@
                         "Feature Selection - I use PCA and SVD to undertake Feature Engineering that demonstrates the highest level of reliability.",
                         "Feature Selection - Adding and removing one feature at a time while monitoring the decision tree's accuracy metric. Then selecting features with highest accuracy",
                         "Finally clustering Feature vectors is done using Hierarchical clustering algo.",
-                        "Similarity measurement using image -- "
+                        "Similarity measurement using image -- ",
+                        "We trained Convolutional Auto-encoder using similar image pairs as network traing data.",
+                        "The output of the Encoder Layer has been extracted from a trained Model. Finally Kmeans Clustering has been done."
                       ],
                 "tools":["python3", "Tendorflow","keras","matplot-lib","numpy","opencv"]
+              }
+            ]
+          },
+          {
+            "desig":"IT Analyst",
+            "role": "Data Scientist & ML Engineer",
+            "date":"Jun 2021",
+            "org": "TCS",
+            "projects":[
+              {
+                "title":"Dashboard Building / Visualization Tool",
+                "functionalities":"Data-science projects require interactive ways to share visuals of various graphs, charts, map and other visual information. Web-based dashboards are an effective solution. However the task became challenging sometimes,  when creating visualization for N-Dimensional data ,Or Visualization for intermediate layers of Deep Neural Network.",
+                "tools":["D3.js", "Javascript","Python3","flask","matplot-lib"]
               }
             ]
           }
@@ -100,7 +98,7 @@
               "functionalities":"Detect empty shelves in retail stores and refill empty shelves with the exact items specified in the planogram is a retailer's daily business. However, the task complexity increases exponentially with the number of merchandise items. Retailer wants a mobile app-based solution to support store owners. App will Organize missing shelves and replenish new value according to planogram compliance. As a deep learning engineer, my job was to detect empty positions of the shelvs from images captured by mobile apps, And Recognize the Product of filledup shelves.",
               "roles":["Image dataset collection by web scraping with Python script.",
                       "Image dataset preprocessing, meta tag removal, resizing, image annotation.",
-                      "The main task of object recognition was taken over by YOLOV3. However, I did experimentation FRCNN.",
+                    "The main task of object recognition was taken over by YOLOV3. However, I did experimentation FRCNN.",
                     "Training of state-of-the-art Yolov3 models [transfer learning].",
                     "Monitoring the training process with Tensorboard and hyperparameter tuning.",
                     "Deployed a trained model using Tensorflow-serving."],
@@ -130,6 +128,7 @@
               "functionalities":"Execution of core banking system across all branches and speed up all finantial transactions, automation of EOD interests calculation and ofline reporting.",
               "roles":["Enhancements for interest calculation for loan products.",
               "Change request implementation for parameter change, customer level limit tree creation, NPA, Financial transaction.", 
+              "Change request implementation for currency chest, loan account opening process.",
               "Offline and ad-hoc report generation."
               ],
               "tools":["Sql", "COBOL","Unix"]
@@ -245,7 +244,7 @@
         },
         {
           "name": "Data Science ",
-          "pkges":["numpy", "scikit-learn","Optuna", "matplotlib", "seaborn", "opencv","Shap","Lime","dask-ml"],
+          "pkges":["numpy", "scikit-learn","Optuna", "matplotlib", "seaborn", "opencv","Shap","Lime"],
           "duration": "5 Years"
         },
         {
@@ -267,7 +266,7 @@
     "otherskills":{
       "title": "My Leaning Stack",
       "desc":"Given the present state of technology, I am developing certain skills, but I am not officially using them in my current company.",
-      "items":["Rust","Mojo","C++","TypeScript"]
+      "items":["Rust","JavaScpript","TypeScript","Webpack","React"]
     },
     "achivements": {
       "title": "Achievement",

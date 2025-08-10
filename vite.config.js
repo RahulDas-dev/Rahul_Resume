@@ -1,6 +1,7 @@
 import { resolve } from 'path';
 import { defineConfig } from "vite";
 import handlebars from 'vite-plugin-handlebars';
+import tailwindcss from '@tailwindcss/vite'
 
 import * as content from "./content.json";
 
@@ -15,6 +16,7 @@ export default defineConfig({
             },
             reloadOnPartialChange: true,
           }),
+          tailwindcss(),
     ],
     server: {
         port: 1420,

@@ -3,16 +3,12 @@
         {{certification.title}}
     </div>
     <hr class="h-0.5 bg-blue-500 mr-5">
-    {{#each certification.items}}
-    <div class="text-xs ">
-        <a href={{this.suburl}} target="_blank">
-            <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
-        </a>    
-    </div>
-    {{/each}}
-    <div class="text-sm font-mono">{{certification.mitems.title}}</div>
+    
+
+    {{#each certification.mitems}}
+    <div class="text-sm font-mono">{{this.title}}</div>
     <ol class="text-xs list-disc px-2 ">
-    {{#each certification.mitems.items}}
+    {{#each this.items}}
         <li>
             <a href={{this.suburl}} target="_blank">
                 <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
@@ -20,5 +16,17 @@
         </li>
     {{/each}}
     </ol>
+    <br>
+    {{/each}}
+
+    {{#each certification.items}}
+    <div class="text-xs ">
+        <a href={{this.suburl}} target="_blank">
+            <span class="text-xs font-normal leading-none font-mono ">{{this.title}}</span>
+        </a>    
+    </div>
+    <br>
+    {{/each}}
+    
     
 </div>

@@ -8,83 +8,60 @@
         "github-short":"github.com/RahulDas-dev",
         "twitter":"https://twitter.com/Rahul13031988",
         "linkedin":"https://in.linkedin.com/in/contact-rahul",
-        "linkedin-short": "likedin.com/contact-rahul",
+        "linkedin-short": "linkedin.com/contact-rahul",
         "mobile": "+91 8097397804",
         "mail":"r.das699@gmail.com",
-        "experience":"10+ years of experience",
+        "experience":"13+ years of experience",
         "gitrepo":"https://github.com/RahulDas-dev/rahul_resume"
     },
     "title": "Hi, I am Rahul",
-    "sub_title" : "Data Science & Machine Learning Professionals",
-    "content": "I have 11+ years of industry experience including 7+ years in ML/Data Science, specially in the Banking/Retail domain. During my tenure, I was able to gain expertise in Machine Learning, Deep Learning, Image processing, Linear Algebra, and Statistics. Besides Python, I've used Javascript and Typescript to create dashboards and visualizations. Currently I am looking for opportunities to apply my expertise and learn further.",
+    "sub_title" : "Data Scientist | GEN AI, ML| 13+ yrs SW, 9+ yrs Gen AI & ML",
+    "content": "With over 13 years in the software industry and 9+ years dedicated to Data Science, GenAI, and Machine Learning, I am at the forefront of Generative AI innovation. I specialize in turning complex data challenges into actionable, scalable solutions for the financial sector. My recent work focuses on pioneering LLM-based solutions, including development of an advanced Low-code Platform (MCP) to accelerate React and React Native app development, building a sophisticated Agentic communication system using an actor-reviewer pattern to enhance codebase intelligence, and creating a financial chatbot with automated workflows like invoice parsing. Beyond GenAI, my expertise includes Explainable AI/ML models for transparency in decision-making, Synthetic Tabular Data Generator ensuring privacy and security, and exploration of emerging technologies like Rust and Mojo for scientific computing. I'm currently seeking to contribute to cutting-edge ML and DL projects, advancing AI models, and implementing large-scale ML solutions.",
     "career":{
         "title": "Relevant Experience",
         "items":[
           {
             "desig":"Data Scientist",
             "role": "ML Engineer",
-            "date":"Current Date",
-            "org": "EvdeVerve, Finacle",
+            "date":"Current - Oct 2024",
+            "org": "EdgeVerve",
             "projects":[
               {
-                "title": "AutoML Platform",
+                "title": "Gen AI Development",
                 "client": "Finacle",
-                "functionalities": "Spearheaded the development of an AutoML platform featuring explainable models within the existing banking solution, specifically tailored to meet the needs of banking customers, thereby enhancing the efficiency and transparency of the system.",
+                "functionalities": "Architected a low-code, GenAI-driven platform automating 80% of app development from Figma designs via multi-agent coordination and stateful workflows, significantly reducing manual effort and accelerating delivery times.",
                 "roles": [
-                  "Ensuring consistent data flow for various models.",
-                  "Ensuring the global and local explainability of the models.",
-                  "Ensuring seamless model integration during inference.",
-                  "Ensuring support for ONNX.",
-                  "Ensuring seamless interoperability and deployment of models across various environments.",
-                  "Ensuring project lifecycle monitoring using Data Drift + Concept Drift."
+                  "Pioneered an LLM-powered developer-agent interaction framework using LiteLLM for stateful orchestration, enabling efficient code extraction, review, and refactoring with automated knowledge transfer across development cycles",
+                  "Designed and deployed a stateful financial support chatbot using Pydantic AI, integrated with multi-agent pipelines for query understanding, compliance verification, and Financial Transaction posting enhancing customer experience",
+                  "Developed advanced Low-code Platform using MCP/AG-UI protocol to accelerate React and React Native app development with multi-agent coordination"
                 ],
                 "tools": [
-                  "dask-ml",
-                  "Optuna",
-                  "scikit-learn",
-                  "SHAP",
-                  "LIME",
-                  "sktime",
-                  "statsmodels",
-                  "ML-Forecast"
+                  "LiteLLM",
+                  "Pydantic AI",
+                  "MCP Protocol",
+                  "AG-UI Protocol",
+                  "Multi-agent Systems"
                 ]
               }              
             ]
           },
           {
-            "desig":"Data Scientist",
+            "desig":"Consultant - Data Science",
             "role": "ML Engineer",
-            "date":"June 2023",
-            "org": "EvdeVerve, Finacle",
+            "date":"Mar 2023 - Oct 2024",
+            "org": "EdgeVerve",
             "projects":[
               {
-                "title": "Synthetic Tabular Data Generator",
+                "title": "AutoML Platform & Synthetic Data Generator",
                 "client": "Finacle",
-                "functionalities": "Successfully developed a Synthetic Tabular Data Generator tailored for the banking domain. This project aimed to create statistically equivalent synthetic data while concealing sensitive financial details.",
-                "roles": [],
-                "tools": ["scikit-learn"]
+                "functionalities": "Developed a statistical equivalent Synthetic Tabular Data Generator without GANs/Autoencoders, enabling secure financial data sharing. Built a fully functional AutoML platform supporting regression, classification, and time series forecasting with explainability.",
+                "roles": [
+                  "Created Synthetic Tabular Data Generator tailored for banking domain ensuring privacy and security",
+                  "Integrated multiple time series forecasting packages into AutoML platform",
+                  "Implemented explainable AI models to enhance transparency in complex decision-making"
+                ],
+                "tools": ["scikit-learn", "dask-ml", "Optuna", "SHAP", "LIME", "sktime", "statsmodels", "ML-Forecast"]
               }              
-            ]
-          },
-          {
-            "desig":"Assistant Consultant",
-            "role": "Data Scientist & ML Engineer",
-            "date":"Mar 2023",
-            "org": "TCS",
-            "projects":[
-              {
-                "title":"Item / Buddy Matching ",
-                "client":"Walgreens",
-                "functionalities":"Manually organizing big class of merchandise for Retailers is a headache. The Retailers want to identify all comparable item/buddy under same clustering using image or textual information.",
-                "roles":["Clustering using textual information --",
-                        "Given product titles, brand, manufracturer info and other quantifying their diploma of similarity using, Feature selection followed by clustering",
-                        "Feature Selection - I use PCA and SVD to undertake Feature Engineering that demonstrates the highest level of reliability.",
-                        "Feature Selection - Adding and removing one feature at a time while monitoring the decision tree's accuracy metric. Then selecting features with highest accuracy",
-                        "Finally clustering Feature vectors is done using Hierarchical clustering algo.",
-                        "Similarity measurement using image -- "
-                      ],
-                "tools":["python3", "Tendorflow","keras","matplot-lib","numpy","opencv"]
-              }
             ]
           }
         ]
@@ -92,81 +69,42 @@
     "career2":{
       "items":[
         {
-          "projects":[
-            {
-              "title":"Product Identification / Object Detection",
-              "client":"Walgreens",
-              "org": "TCS",
-              "functionalities":"Detect empty shelves in retail stores and refill empty shelves with the exact items specified in the planogram is a retailer's daily business. However, the task complexity increases exponentially with the number of merchandise items. Retailer wants a mobile app-based solution to support store owners. App will Organize missing shelves and replenish new value according to planogram compliance. As a deep learning engineer, my job was to detect empty positions of the shelvs from images captured by mobile apps, And Recognize the Product of filledup shelves.",
-              "roles":["Image dataset collection by web scraping with Python script.",
-                      "Image dataset preprocessing, meta tag removal, resizing, image annotation.",
-                      "The main task of object recognition was taken over by YOLOV3. However, I did experimentation FRCNN.",
-                    "Training of state-of-the-art Yolov3 models [transfer learning].",
-                    "Monitoring the training process with Tensorboard and hyperparameter tuning.",
-                    "Deployed a trained model using Tensorflow-serving."],
-              "tools":["python3","Tendorflow","keras", "Tensorboard","Tensorflow-serving","scikit-learn","matplot-lib","opencv" ] 
-            },
-            {
-              "title":"Associative Rule Mining",
-              "client":"Walgreens",
-              "functionalities":"Retailers want to find associations among large sets of particulars which are constantly brought together. In a sense this seems finding similarity between the particulars, but its not. Ex- Bread and Butter are frequently brought together. This association helps retailer to organize the Planogram accordingly, so the associated particulars can placed near by shelves. As a data scientist we had the job to find out that association.",
-              "roles":["Data preprocessing - collecting daily invoice data from OLAP and mapping the items that are frequently brought together using Numpy Matric / Pivot Table",
-                      "I use Apriori Algorithm which is a Unsupervised Learning technique. ",
-                      "That main difficulty with Apriori algorithm is it has time complexity of O(2^n). So we itroduced a technique to store the conditional probability generated by algorithem from original data set. We reuse the conditionally probabilities in case of incremental data. This results lower time consumption in case of incremental data."
-                    ],
-              "tools":["python3","scikit-learn","matplot-lib","numpy" ] 
-            }
-          ]
-        },
+            "desig":"Assistant Consultant",
+            "role": "Data Science & ML Engineer",
+            "date":"Jun 2021 - Oct 2024",
+            "org": "TCS",
+            "projects":[
+              {
+                "title":"Retail ML Solutions - Item/Buddy Matching & Product Detection",
+                "client":"Walgreens",
+                "functionalities":"Developed ML models for retail demand/supply, recommendations, pricing, and customer experience. Built item clustering systems using textual and image information for merchandise organization and product identification using YOLO object detection.",
+                "roles":[
+                  "Implemented clustering algorithms using textual information for product similarity matching",
+                  "Developed object detection models using YOLOV3 for empty shelf detection and product recognition",
+                  "Created associative rule mining systems to find item associations for planogram optimization",
+                  "Built scalable ML systems for production deployment and monitoring"
+                ],
+                "tools":["python3", "Tensorflow","keras","YOLO","opencv","scikit-learn","numpy","matplotlib"]
+              }
+            ]
+          },
         {
           "desig":"System Engineer",
-          "role": "Back end Developer",
-          "date":"Aug 2017",
+          "role": "Back end Developer", 
+          "date":"Aug 2012 - Aug 2017",
           "org": "TCS",
           "projects":[
             {
               "title":"Core Banking Solution [ CBS ]",
               "client":"State Bank of India",
-              "functionalities":"Execution of core banking system across all branches and speed up all finantial transactions, automation of EOD interests calculation and ofline reporting.",
+              "functionalities":"Execution of core banking system across all branches and speed up all financial transactions, automation of EOD interests calculation and offline reporting.",
               "roles":["Enhancements for interest calculation for loan products.",
               "Change request implementation for parameter change, customer level limit tree creation, NPA, Financial transaction.", 
               "Offline and ad-hoc report generation."
               ],
-              "tools":["Sql", "COBOL","Unix"]
+              "tools":["SQL", "COBOL","Unix"]
             }
           ]
-        },{
-          "date":"Jul 2012",
-          "projects":[
-          ]
-        }
-      ]
-    },
-    "onlineCouse":{
-      "title":"Online Course",
-      "name":"Deep Learning Specilization",
-      "source":"Coursera",
-      "url":"https://www.coursera.org/account/accomplishments/specialization/G9BU6M6NP8KQ",
-      "logo": "https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
-      "subtopics":[
-        {
-          "title":"Neural Networks and Deep Learning",
-          "suburl":"https://www.coursera.org/account/accomplishments/verify/KJW4VJJ8GKFC"
-        },
-        {
-          "title":"Structuring ML Projects",
-          "suburl":"https://www.coursera.org/account/accomplishments/verify/HSAYYFRUXLM9"
-        },
-        {
-          "title":"Improving Deep Neural Networks",
-          "suburl":"https://www.coursera.org/account/accomplishments/verify/7LJTMTL3SM2K"
-        },{
-          "title":"Convolutional Neural Networks",
-          "suburl":"https://www.coursera.org/account/accomplishments/verify/4DXE2DR3B6ZN"
-        },
-        {
-          "title":"Sequence Models",
-          "suburl":"https://www.coursera.org/account/accomplishments/verify/PJGX3DW4N5G9"
         }
       ]
     },
@@ -187,7 +125,29 @@
           "logo": "https://www.vectorlogo.zone/logos/udemy/udemy-ar21.svg",
           "suburl":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
         }],
-        "mitems":{
+        "mitems":[{
+          "title":"Post Graduate Program in GEN-AI and ML",
+          "source":"Caltech CTME + Simplilearn",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://success.simplilearn.com/a67dc7c8-6b86-435a-afac-b0b3bfb2d0fa#acc.XkSnFCg3",
+          "items":[
+            {
+              "title":"SimpliLearn PGC AIML - Capstone",
+              "suburl":"https://certificates.simplicdn.net/share/7954294_69941061740489627148.png"
+            },
+            {
+              "title":"Essentials of Generative AI, Prompt Engineering & ChatGPT",
+              "suburl":"https://certificates.simplicdn.net/share/7916417_69941061739773145161.png"
+            },
+            {
+              "title":"Deep Learning Specialization",
+              "suburl":"https://certificates.simplicdn.net/share/7808248_69941061738151889940.png"
+            },{
+              "title":"AI and Machine Learning Academic Masterclass",
+              "suburl":"https://certificates.simplicdn.net/share/7557971_69941061732381753388.png"
+            }
+          ]
+        },{
           "title":"Google Cloud",
           "source":"Coursera",
           "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
@@ -212,25 +172,52 @@
               "suburl": "https://www.coursera.org/account/accomplishments/certificate/SWEV92PPQ2RU"
             }
           ]
-        }
+        },{
+          "title":"Deep Learning Specilization",
+          "name":"Deep Learning Specilization",
+          "source":"Coursera",
+          "url":"https://www.coursera.org/account/accomplishments/specialization/G9BU6M6NP8KQ",
+          "logo": "https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "items":[
+            {
+              "title":"Neural Networks and Deep Learning",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/KJW4VJJ8GKFC"
+            },
+            {
+              "title":"Structuring ML Projects",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/HSAYYFRUXLM9"
+            },
+            {
+              "title":"Improving Deep Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/7LJTMTL3SM2K"
+            },{
+              "title":"Convolutional Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/4DXE2DR3B6ZN"
+            },
+            {
+              "title":"Sequence Models",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/PJGX3DW4N5G9"
+            }
+          ]
+        }]
     },
     "education":{
         "title": "Academics",
         "sub_title" : "Data Science, ML Engineer",
         "items":[
             {
-                "degree": "M.tech",
-                "subject": "Communication Engineering",
-                "University": "NIT Durgapur",
-                "period": "2010-2012",
+                "degree": "M.Tech",
+                "subject": "Telecommunications Engineering",
+                "University": "National Institute of Technology Durgapur",
+                "period": "May 2010-May 2012",
                 "marks": "CGPA 9.1",
                 "url": "https://nitdgp.ac.in/"
             },
             {
-                "degree": "B.tech",
-                "subject": "Electronics & Comm Engineering",
-                "University": "West Bengal University of technology",
-                "period": "2005-2009",
+                "degree": "B.Tech",
+                "subject": "Electronics & Communications Engineering",
+                "University": "West Bengal University of Technology",
+                "period": "Mar 2005-Mar 2009",
                 "marks": "CGPA 8.5",
                 "url" : "https://makautwb.ac.in/"
             }
@@ -240,38 +227,42 @@
       "items":[
         {
           "name": "Python",
-          "duration": "6 Years",
-          "pkges":["core-library","type-hinting","Fast-ApI","Flask","asyncio"]
+          "duration": "9+ Years",
+          "pkges":["core-library","type-hinting","FastAPI","Flask", "Quart","asyncio","Pydantic","aiohttp"]
+        },
+        {
+          "name": "GenAI & LLM",
+          "pkges":["LiteLLM", "MCP Protocol", "AG-UI Protocol", "FastMCP", "Pydantic-ai", "langchain", "LangGraph", "Pydantic-graph"],
+          "duration": "2+ Years"
         },
         {
           "name": "Data Science ",
-          "pkges":["numpy", "scikit-learn","Optuna", "matplotlib", "seaborn", "opencv","Shap","Lime","dask-ml"],
-          "duration": "5 Years"
+          "pkges":["numpy", "scikit-learn","Optuna", "matplotlib", "seaborn", "opencv","SHAP","LIME","dask-ml"],
+          "duration": "7+ Years"
         },
         {
           "name": "ML/DL Framework",
-          "pkges":["tensorflow","Keras", "pytorch"],
-          "duration": "4 Years"
+          "pkges":["tensorflow","Keras", "pytorch", "YOLO", "AutoML"],
+          "duration": "5+ Years"
         },
         {
           "name": "SQL Database",
-          "pkges":["postgres","Azure Databrics", "Python/sqlite3","pyspark", "pandas"],
-          "duration": "4 Years"
-        },{
+          "pkges":["postgres","Azure Databricks", "Python/sqlite3","pyspark", "pandas"],
+          "duration": "6+ Years"
+        },
+        {
           "name": "DS Fundamentals",
-          "pkges":["Statistics", "Linear Algebra"],
-          "duration": "4 Years"
+          "pkges":["Statistics", "Linear Algebra", "Time Series", "Explainable AI"],
+          "duration": "6+ Years"
         }
       ]
     },
-    "otherskills":{
-      "title": "My Leaning Stack",
-      "desc":"Given the present state of technology, I am developing certain skills, but I am not officially using them in my current company.",
-      "items":["Rust","Mojo","C++","TypeScript"]
-    },
     "achivements": {
       "title": "Achievement",
-      "items":["Oct 2016 - Technical Excellence Award for successful automation of Agricultural Subvention Reporting"]
+      "items":[
+        "Feb 2025 - Finacle Acer Award FY 25 in the Innovation category for my significant contributions to Synthetic Data Generation!",
+        "Oct 2016 - Technical Excellence Award for successful automation of Agricultural Subvention Reporting"
+      ]
     },
     "footer":{
       "repolink" : "https://github.com/RahulDas-dev/rahul_resume",
